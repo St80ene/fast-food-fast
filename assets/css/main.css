@@ -1,0 +1,14 @@
+.head {
+  background-color: rgba(34, 32, 36, 0.589);
+  height: 60px;
+  font-size: 30px;
+  color: white;
+}
+.head > img {
+  width: 120px;
+  height: 70px;
+}
+.head > h2 {
+  padding-top: 24px;
+  margin-left: 9px;
+}

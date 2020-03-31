@@ -1,0 +1,72 @@
+.head {
+  background-color: rgba(34, 32, 36, 0.589);
+  height: 60px;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.rowhead {
+  display: flex;
+}
+#image-edit {
+  width: 120px;
+  height: 70px;
+}
+.rowhead > h2 {
+  padding-top: 24px;
+  margin-left: 9px;
+}
+.rowheadie {
+  margin-right: 15px;
+}
+#log-out {
+  margin-left: 10px;
+}
+.main-page {
+  background: url(../../img/strawberries-1330459_1920.jpg);
+  background-repeat: no-repeat;
+}
+.second {
+  background-color: #00000065;
+  height: 520px;
+  padding-top: 10px;
+  justify-content: space-evenly;
+  overflow: scroll;
+}
+#log-out,
+#cart {
+  width: 30px;
+  height: 27px;
+  cursor: pointer;
+}
+.card {
+  width: 300px;
+  height: 450px;
+  margin: 10px;
+}
+.burger-pic {
+  width: 100%;
+  height: 250px;
+}
+card-body {
+  width: 100%;
+  height: 30px;
+}
+button {
+  background-color: rgba(255, 0, 0, 0.596);
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.butn {
+  text-align: center;
+}
+h5 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: oblique;
+}
