@@ -85,10 +85,10 @@ h5 {
 #second-burger {
   width: 50px;
   height: 40px;
+  cursor: pointer;
 }
 .card-add {
-  /* display: flex; */
-  justify-content: space-around;
+  /* justify-content: space-around; */
   height: 250px;
   padding-bottom: 10px;
 }
@@ -99,6 +99,7 @@ input[type="text"] {
 }
 .icon {
   height: 20px;
+  cursor: pointer;
 }
 .icon > p {
   width: 30px;
@@ -123,4 +124,32 @@ input[type="text"] {
   width: 28%;
   color: #5e7070;
   font-weight: bold;
+}
+#cover-wrapper {
+  background-color: transparent;
+  position: relative;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+}
+#image-wrapper {
+  background-color: #00000036;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 40px;
+  display: none;
+}
+#cover-wrapper:hover > #image-wrapper {
+  display: block;
+  color: white;
+}
+#order_cancel {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 9px;
+  right: 12px;
+  display: hidden;
 }
